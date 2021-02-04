@@ -28,6 +28,7 @@ namespace CoreAPI.Controllers
             return new JsonResult(abc);
         }
 
+        //get token
         [AllowAnonymous]
         [HttpPost]
         public IActionResult Authenticate(User user)
